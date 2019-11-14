@@ -1,0 +1,150 @@
+body{
+font-family: bebas-neue, sans-serif !important;
+font-family: whitman-display-compressed, serif !important;
+font-family: futura-pt, sans-serif !important;
+
+}
+
+#navbarNav a:hover{
+    color:#49B5A5;
+    border-bottom: 2px #49B5A5 solid ;
+
+}
+
+.nav-link{
+    font-weight: 700;
+}
+
+
+#bannerDiv{
+    background-image: url(../img/header-image.jpg);
+    height: 513px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+#formSection{
+    padding-top:25%;
+    
+}
+
+#formSection h4{
+    color:white;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+input{
+    border-radius: 0 !important;
+}
+
+#email {
+    width: 363px;
+}
+
+/*iphone Portrait*/
+@media (max-width:576px){
+   #email{
+       width: auto;
+   } 
+
+   .news-desc h4{
+       margin-left: 0 !important;
+       font-size: 20px !important;
+       margin-top:2px;
+   }
+
+   
+
+}
+
+#updateBtn{
+    border: 2px #49B5A5 solid;
+}
+
+#updateBtn:hover{
+    background-color: #49B5A5;
+    color: white !important;
+    transition-delay: 6ms;
+}
+
+#footerBtn{
+    border: 2px #49B5A5 solid;
+}
+
+#joinBtn{
+    background:transparent;
+    width:10rem;
+    font-weight:600;
+    color:white;
+    font-size: 27px;
+    border: 2px #49B5A5 solid;
+    
+}
+
+#joinBtn:hover{
+   
+    background-color: white ;
+    color: #49B5A5;
+    
+}
+
+#btnDiv{
+    display: flex;
+    justify-content: center;
+  
+}
+
+#newsSection h1{
+    font-weight: 600;
+    border-left: 8px #49B5A5 solid ;
+    margin-left: -15px;
+    font-size: 60px;
+}
+
+#moreBtn{
+    background:transparent;
+    width:10rem;
+    font-weight:600;
+    border: 2px #49B5A5 solid;
+   
+    
+
+}
+
+#moreBtn:hover{
+    background-color:#49B5A5 ;
+    color:white;
+}
+
+.news-desc h4{
+    border-left: 8px #49B5A5 solid ;
+    margin-left: -60px;
+    background-color:white;
+    font-size: 30px;
+}
+
+footer{
+    background-color: #4D4D4F ;
+}
+
+footer a {
+    width:180px;
+    color: white;
+    
+    
+}
+
+footer a:hover{
+    color:#49B5A5;
+}
+
+#footerBtn:hover{
+    background-color: white;;
+}
